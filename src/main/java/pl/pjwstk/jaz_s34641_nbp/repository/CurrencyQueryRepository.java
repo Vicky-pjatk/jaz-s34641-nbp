@@ -1,4 +1,7 @@
 package pl.pjwstk.jaz_s34641_nbp.repository;
 
-public class CurrencyQueryRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import pl.pjwstk.jaz_s34641_nbp.entity.CurrencyQuery;
+
+public interface CurrencyQueryRepository extends JpaRepository<CurrencyQuery, Long> {
 }
