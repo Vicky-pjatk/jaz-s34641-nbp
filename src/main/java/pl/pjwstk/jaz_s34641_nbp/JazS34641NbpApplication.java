@@ -9,5 +9,4 @@ public class JazS34641NbpApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JazS34641NbpApplication.class, args);
 	}
-
 }
